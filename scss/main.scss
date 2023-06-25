@@ -272,6 +272,10 @@ header {
         font-size: 11px;
     }
     }
+    @include media(573px) {
+        padding: 15px;
+        gap: 5px;
+    }
     &__number {
       font-size: 22px;
       font-weight: 700;
